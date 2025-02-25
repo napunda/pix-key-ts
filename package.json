@@ -26,6 +26,9 @@
     "validate",
     "pix-utils"
   ],
+  "browser": {
+    "buffer": "buffer"
+  },
   "author": "Anderson Souza",
   "license": "MIT",
   "dependencies": {
