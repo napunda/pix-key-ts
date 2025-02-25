@@ -1,0 +1,43 @@
+{
+  "name": "@napunda/pix-key-ts",
+  "version": "1.0.2",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "tsx ./test/pixkey.test.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napunda/pix-utils-ts.git"
+  },
+  "description": "Identify, validate, format and normalize a Pix key type from a string",
+  "keywords": [
+    "pix",
+    "validate",
+    "pix-utils"
+  ],
+  "author": "Anderson Souza",
+  "license": "MIT",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "js-brasil": "^2.6.4",
+    "libphonenumber-js": "^1.11.20",
+    "uuid-validate": "^0.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/uuid-validate": "^0.0.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
