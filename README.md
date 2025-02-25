@@ -1,6 +1,6 @@
 # Pix Key Ts
 
-A **Pix Key Ts** é uma biblioteca para validação, normalização e formatação de chaves Pix no Brasil. Ela suporta CPF, CNPJ, e-mail, telefone e UUID, garantindo conformidade com os padrões do Banco Central. Esta é uma versão otimizada com tipagens typscript da biblioteca [pixkey](github.com/jesobreira/pixkey).
+A **Pix Key Ts** é uma biblioteca para validação, normalização e formatação de chaves Pix no Brasil. Ela suporta CPF, CNPJ, e-mail, telefone e UUID, garantindo conformidade com os padrões do Banco Central. Esta é uma versão otimizada com tipagens typscript da biblioteca [pixkey](https://github.com/jesobreira/pixkey).
 
 ## Instalação
 
